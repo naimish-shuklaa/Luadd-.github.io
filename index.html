@@ -8,6 +8,11 @@
     <meta name="description" content="Website for learning & Test Peparation for College students">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="src/index.css"> 
+  
+  
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 
     <link rel="icon" type="image/png" href="img/favicon.ico" />
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -30,13 +35,13 @@
 
 
     <!-- Header -->
-    <header style=" background-color:  rgba(0, 0, 0, 0.2);" class="  sticky top-0 ">
-        <div>
+    <header  style=" background-color:  rgba(0, 0, 0, 0.2);" class="  sticky top-0 ">
+        <div  >
             <nav class="p-5  shadow md:flex md:items-center md:justify-between">
 
                 <!-- LU adda LOGO: Start -->
 
-                <div class="flex justify-between items-center ">
+                <div  class="flex justify-between items-center ">
                     <span class="text-2xl font-[Poppins] cursor-pointer">
                         <a href="index.html"> <img class="h-10 inline" src="img/logo.png"></a>
                     </span>
@@ -63,10 +68,10 @@
                     </li>
 
                     <li class="mx-4 my-6 md:my-0">
-                        <a href="#" class="text-xl text-white hover:text-cyan-500 duration-500">CONTACT US</a>
+                        <a href="contactus.html" class="text-xl text-white hover:text-cyan-500 duration-500">CONTACT US</a>
                     </li>
                     <li class="mx-4 my-6 md:my-0">
-                        <a href="privacypolicy.html" class="text-xl text-white hover:text-cyan-500 duration-500">PRIVACY
+                        <a href="PrivacyPolicy.html" class="text-xl text-white hover:text-cyan-500 duration-500">PRIVACY
                             POLICY</a>
                     </li>
                     <li class="mx-4 my-6 md:my-0">
@@ -111,7 +116,7 @@
 
 
     <!-- hero -->
-    <section>
+    <section  >
         <div class="relative  z-[-1] overflow-hidden bg-no-repeat bg-cover" style="
     background-position: 50%;
     
@@ -222,9 +227,9 @@
 
 
     <!-- Services offering -->
-    <section class="m-4 md:flex space-y-3 md:space-y-0 ">
+    <section  class="m-4 md:flex space-y-3 md:space-y-0 ">
 
-        <div class="max-w-sm p-6  mx-auto border  rounded-lg shadow bg-gray-800 border-gray-700">
+        <div data-aos="flip-left" class="max-w-sm p-6  mx-auto border  rounded-lg shadow bg-gray-800 border-gray-700">
            
            
             <a href="#">
@@ -257,7 +262,7 @@
         </div>
 
 
-        <div class="max-w-sm p-6  mx-auto border  rounded-lg shadow bg-gray-800 border-gray-700">
+        <div data-aos="flip-up" class="max-w-sm p-6  mx-auto border  rounded-lg shadow bg-gray-800 border-gray-700">
             <a href="#">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">Mock Tests</h5>
             </a>
@@ -277,7 +282,7 @@
         </div>
 
 
-        <div class="max-w-sm p-6 mx-auto  border  rounded-lg shadow bg-gray-800 border-gray-700">
+        <div data-aos="flip-right" class="max-w-sm p-6 mx-auto  border  rounded-lg shadow bg-gray-800 border-gray-700">
             <a href="#">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">Study Material</h5>
             </a>
@@ -303,7 +308,7 @@
 
 
     <!-- Testimonial -->
-    <section class="px-4 mb-0">
+    <section  class="px-4 mb-0">
         <div class="mx-auto max-w-3xl text-center">
             <h3 class="mb-6 text-white text-3xl font-bold">Testimonials</h3>
             <p class="mb-6 pb-2 text-neutral-300 md:mb-12">
@@ -315,7 +320,7 @@
         <div class="grid gap-12 text-center md:grid-cols-2">
 
             <!-- #1 -->
-            <div class="mb-6 md:mb-0">
+            <div data-aos="zoom-in-left" class="mb-6 md:mb-0">
                 <div class="mb-6 flex justify-center">
                     <img src="img/person.jpg" class="w-24 rounded-full shadow-lg shadow-black/30" />
                 </div>
@@ -328,7 +333,7 @@
 
 
             <!-- #2 -->
-            <div class="mb-6 md:mb-0">
+            <div data-aos="zoom-in-right" class="mb-6 md:mb-0">
                 <div class="mb-6 flex justify-center">
                     <img src="img/person.jpg" class="w-24 rounded-full shadow-lg shadow-black/30" />
                 </div>
@@ -341,7 +346,7 @@
 
 
             <!-- #3 -->
-            <div class="mb-6 md:mb-0">
+            <div data-aos="zoom-in-left" class="mb-6 md:mb-0">
                 <div class="mb-6 flex justify-center">
                     <img src="img/person.jpg" class="w-24 rounded-full shadow-lg shadow-black/30" />
                 </div>
@@ -354,7 +359,7 @@
 
 
             <!-- #4 -->
-            <div class="mb-6 md:mb-0">
+            <div data-aos="zoom-in-right" class="mb-6 md:mb-0">
                 <div class="mb-6 flex justify-center">
                     <img src="img/person.jpg" class="w-24 rounded-full shadow-lg shadow-black/30" />
                 </div>
@@ -533,7 +538,10 @@
 
 
 
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
